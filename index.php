@@ -90,12 +90,12 @@
             </div>
             <div class="col-md-4 mb-3">
                 <div class="alert alert-info" role="alert">
-                    0.3% = <strong id="liquidoc03"></strong>
+                    <strong id="liquido03"></strong>
                 </div>
             </div>
             <div class="col-md-4 mb-3">
                 <div class="alert alert-success" role="alert">
-                    0.5% = <strong id="liquido05"></strong>
+                    <strong id="liquido05"></strong>
                 </div>
             </div>
         </div>
