@@ -49,8 +49,8 @@
             $('#porc03').html( formatSaida( result03 ) );
             $('#porc05').html( formatSaida( result05 ) );
 
-            var liqiuido03 = result03 * (0.5/100); 
-            var liqiuido05 = result05 * (0.5/100); 
+            var liqiuido03 = result03 - (result03 * (0.5/100)); 
+            var liqiuido05 = result05 - (result05 * (0.5/100)); 
             
             $('#liquido03').html( formatSaida( liqiuido03 ) );
             $('#liquido05').html( formatSaida( liqiuido05 ) );
