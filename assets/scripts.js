@@ -55,8 +55,6 @@
             $('#liquido03').html( formatSaida( liqiuido03 ) );
             $('#liquido05').html( formatSaida( liqiuido05 ) );
            }
-
-           var 
          
         });
  
