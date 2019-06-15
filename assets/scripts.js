@@ -38,17 +38,25 @@
 
         $("#valorporcetagem").on('keyup keypress blur change paste', function() {
            var valor = formatVal( $(this).val() );
-           
-           var porc03 = valor * (0.3/100); 
-           var result03 = valor - porc03;
-
-           var porc05 = valor * (0.5/100); 
-           var result05 =  valor - porc05;
-
            if( valor > 0 && valor !== null ) {
+            
+            var porc03 = valor * (0.3/100); 
+            var result03 = valor - porc03;
+
+            var porc05 = valor * (0.5/100); 
+            var result05 =  valor - porc05;
+
             $('#porc03').html( formatSaida( result03 ) );
             $('#porc05').html( formatSaida( result05 ) );
+
+            var liqiuido03 = result03 * (0.5/100); 
+            var liqiuido05 = result05 * (0.5/100); 
+            
+            $('#liquidoc03').html( formatSaida( liqiuido03 ) );
+            $('#liquido05').html( formatSaida( liqiuido05 ) );
            }
+
+           var 
          
         });
  

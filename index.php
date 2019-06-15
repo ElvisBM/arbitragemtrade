@@ -84,6 +84,21 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h2>Liquido na TEM( Após a transferência )</h2>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="alert alert-info" role="alert">
+                    0.3% = <strong id="liquidoc03"></strong>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="alert alert-success" role="alert">
+                    0.5% = <strong id="liquido05"></strong>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container my-auto">
